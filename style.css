@@ -1,0 +1,40 @@
+/*
+Theme Name:     Cadie Desbiens-Desmeules
+Theme URI:      https://github.com/mykedean/desbiens-desmeules.git
+Description:    _mgd child theme.
+Author:         Michael Gary Dean
+Author URI:     michaelgarydean.com
+Template:       _mgd
+Version:        0.1.0
+*/
+
+/* Use custom font */
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('fonts/160513024008Akkurat-Reg.eot');
+    src: url('fonts/160513024008Akkurat-Reg.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('fonts/160513024008Akkurat-Light.eot');
+    src: url('fonts/160513024008Akkurat-Light.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akkurat';
+    src: url('fonts/160513024008Akkurat-Bold.eot');
+    src: url('fonts/160513024008Akkurat-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+body {
+	font-family: "Akkurat", arial, sans-serif;
+}
